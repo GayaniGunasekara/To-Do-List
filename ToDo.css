@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    padding: 20px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  body.dark {
+    background: #1e1e1e;
+    color: white;
+  }
+  
+  .app {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  body.dark .app {
+    background: #2c2c2c;
+  }
+  
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input, button {
+    padding: 8px;
+  }
+  
+  input {
+    flex: 1;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  body.dark input,
+  body.dark button {
+    background: #444;
+    color: white;
+    border: 1px solid #666;
+  }
+  
+  .task-list, ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    background: #e3e3e3;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: move;
+  }
+  
+  body.dark li {
+    background: #3c3c3c;
+  }
+  
+  .login-screen {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  body.dark .login-screen {
+    background: #2c2c2c;
+  }
+  .app, .login-screen {
+    background: rgba(255, 255, 255, 0.85);
+  }
+  
+  body.dark .app,
+  body.dark .login-screen {
+    background: rgba(44, 44, 44, 0.85);
+  }
+  

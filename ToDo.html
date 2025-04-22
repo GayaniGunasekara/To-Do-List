@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="ToDo.css" />
+</head>
+<body>
+  <div class="login-screen" id="loginScreen">
+    <h2>Login</h2>
+    <input type="text" id="usernameInput" placeholder="Enter your name" />
+    <button onclick="loginUser()">Login</button>
+  </div>
+
+  <div class="app" id="app" style="display:none;">
+    <h1>📝 To-Do List</h1>
+    <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+    <div class="form">
+      <input type="text" id="taskInput" placeholder="Enter task..." />
+      <input type="text" id="categoryInput" placeholder="Category" />
+      <input type="datetime-local" id="dueDateInput" />
+      <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="ToDo.js"></script>
+</body>
+</html>
