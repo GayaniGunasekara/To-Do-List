@@ -14,8 +14,5 @@ Just me, **JavaScript**, some **CSS**, **HTML**, and the **will to learn** 💡
 This project was **100% self-taught** — and it taught me **much more than just syntax**.  
 It gave me confidence, problem-solving practice, and **real hands-on skills**.  
 
-🔗 **GitHub Repo:**  
-[https://lnkd.in/g4g4cE_a](https://lnkd.in/g4g4cE_a)  
-
 🌐 **Demo / LinkedIn Post:**  
 [https://www.linkedin.com/posts/gayanigunasekara_javascript-selftaughtdev-github-activity-7323417956112109568-oB2M](https://www.linkedin.com/posts/gayanigunasekara_javascript-selftaughtdev-github-activity-7323417956112109568-oB2M?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEL6RiABQSW_ItwUdJrRczRXpnO7Cj36BKo)
